@@ -1,2 +1,44 @@
 # QuizApp
 Quiz app with the help of JavaScript, html and css
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div id="box">
+                <h2 id="quesbox"> 1)  This is dummy question ?</h2>
+           
+            <div class="row">
+            <input type="radio" class="options" value="a" id="option1" name="option">
+            <label for="option1">option 1</label> 
+            </div>
+
+            <div class="row">
+            <input type="radio" class="options" value="b" id="option2" name="option"> 
+            <label for="option2">option 1</label>
+            </div>
+
+            <div class="row">
+            <input type="radio" class="options" value="c" id="option3" name="option"> 
+            <label for="option3">option 1</label>
+            </div>
+
+            <div class="row">
+            <input type="radio" class="options" value="d" id="option4" name="option">
+
+            <label for="option4">option 1</label>
+            </div>
+            
+            <button class="btn" onclick="submitQuiz()">Submit</button>
+             
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
